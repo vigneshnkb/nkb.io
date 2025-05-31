@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Kadhi Bhavan</title>
+    <!-- below is to import and use the goole font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- this is to link the css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- Nav bar -->
+    <nav class="navbar">
+        <table>
+            <tr>
+                <td>
+                    <h1>National Kadhi Bhavan </h1>
+                </td>
+                <td><img class="logoimg" src="img/logo.jpg" alt="" width="60" height="40"></td>
+            </tr>
+        </table>
+
+
+        <div class="navbar-links">
+            <P class="navbar-link"><a href="index.html">Home</a></P>
+            <P class="navbar-link"><a href="stocklogin.html">Stock</a></P>
+            <p class="navbar-link"><a href="contact.html">Contact</a></P>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- side nav bar -->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <P class="side-navbar-link"><a href="index.html">Home</a></P>
+            <P class="side-navbar-link"><a href="stocklogin.html">Stock</a></P>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></P>
+        </div>
+    </div>
+
+
+    <section class="contact-section">
+        <div class="contact-bg">
+            <h3>Get in Touch with Us</h3>
+            <h2>contact us</h2>
+            <div class="line">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <p class="text">We would love to respond to your queries and serve you better.</p>
+
+        </div>
+
+
+        <div class="contact-body">
+            <div class="contact-info">
+                <div>
+                    <span><i class="fas fa-mobile-alt"></i></span>
+                    <span>Phone No.</span>
+                    <span class="text">+91 9787038374</span>
+                </div>
+                <div>
+                    <span><i class="fas fa-envelope-open"></i></span>
+                    <span>E-mail</span>
+                    <span class="text">nkb@gmail.com</span>
+                </div>
+                <div>
+                    <span><i class="fas fa-map-marker-alt"></i></span>
+                    <span>Address</span>
+                    <span class="text">9A, Car Street, Tiruvannamalai, Tamil Nadu - 606601</span>
+                </div>
+                <div>
+                    <span><i class="fas fa-clock"></i></span>
+                    <span>Opening Hours</span>
+                    <span class="text">All Weekdays (8:00 AM to 9:00 PM)</span>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form>
+                    <div>
+                        <input type="text" class="form-control" placeholder="First Name">
+                        <input type="text" class="form-control" placeholder="Last Name">
+                    </div>
+                    <div>
+                        <input type="email" class="form-control" placeholder="E-mail">
+                        <input type="text" class="form-control" placeholder="Phone">
+                    </div>
+                    <textarea rows="5" placeholder="Message" class="form-control"></textarea>
+                    <input type="submit" class="send-btn" value="send message">
+                </form>
+
+                <div>
+                    <img src="img/Contact-png.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31192.94402069394!2d79.0736322!3d12.2402886!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bacc08f38b6f6ab%3A0xef1467deeef9f82f!2sNational%20Khadi%20Bhavan!5e0!3m2!1sen!2sin!4v1748418749146!5m2!1sen!2sin"
+                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            
+        </div>
+
+        <div class="contact-footer">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-youtube"></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">National Khadi Bhavan</h2>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <P>@2025 nkb.com</P>
+    </div>
+    <!-- To include the javascript file -->
+    <script type="text/javascript" src="index.js" defer></script>
+</body>
+
+</html>
