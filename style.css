@@ -75,7 +75,10 @@ body
   padding: 50px;
   padding-left: 200px;
   padding-top: 75px;
+  flex-wrap: wrap;
 }
+
+
 
 .header-button{
   padding-left: 20px;
@@ -406,10 +409,10 @@ button {
     display: none;
   }
 
-  .header-image{
-    display: none;
-
+  .header{
+  padding-left: 20px;
   }
+
   .service-container1{
     display: none;
   }
