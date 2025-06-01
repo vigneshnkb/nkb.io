@@ -413,6 +413,10 @@ button {
   padding-left: 20px;
   }
 
+  .header-image{
+    width: 107%;
+    height: 120%;
+  }
   .service-container1{
     display: none;
   }
