@@ -88,6 +88,10 @@ body
   cursor: pointer;
 }
 
+.stock-header{
+  padding-top: 20px;
+  padding-left: 20px;
+}
 .service{
   padding: 20px;
 }
